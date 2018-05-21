@@ -7,9 +7,8 @@ Sans is an undertale bot designed to be sort of like the actual Sans. He has com
 
 ## A Discordia Bot!
 
-```lua 
 Sans is coded in the language of Lua, from the [Discordia](https://github.com/SinisterRectus/Discordia/wiki) Depository! Though this may be the case, he is still a top notch bot and performs quite well!
-```
+
 
 ## Commands
 ### Here are some of Sans' many commands!
