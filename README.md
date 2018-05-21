@@ -7,6 +7,8 @@
 
 Sans is an undertale bot designed to be sort of like the actual Sans. He has commands like hotdog stacking, puns, and many more. He even connects to an online database, so all those hotdogs on your head come with you from server to server! He is, of course, still in development. However, I add new commands to him almost every day. You can use his `s!suggest` command to suggest some, aswell!
 
+You can add the bot **[Here](https://tinyurl.com/addsansbot)**
+
 ## A Discordia Bot!
 
 Sans is coded in the language of Lua, from the [Discordia](https://github.com/SinisterRectus/Discordia/wiki) Depository! Though this may be the case, he is still a top notch bot and performs quite well!
