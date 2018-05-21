@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Reyyyy/sansbot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Sans, The Undertale Bot
+![Image](https://i.gyazo.com/b98073aa85cbd5f794e0f2156ec637d6.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Sans is an undertale bot designed to be sort of like the actual Sans. He has commands like hotdog stacking, puns, and many more. He even connects to an online database, so all those hotdogs on your head come with you from server to server! He is, of course, still in development. However, I add new commands to him almost every day. You can use his `s!suggest` command to suggest some, aswell!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## A Discordia Bot!
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```lua 
+Sans is coded in the language of Lua, from the [Discordia](https://github.com/SinisterRectus/Discordia/wiki) Depository! Though this may be the case, he is still a top notch bot and performs quite well!
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Commands
+### Here are some of Sans' many commands!
 
-### Jekyll Themes
+**info** -- Bot Information
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Reyyyy/sansbot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**setdogs** -- Gives a user hotdogs on their head. Can only be used by bot admins.
 
-### Support or Contact
+**help** -- Shows the help menu.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**hstack** -- Stack a hotdog on your head!
+
+**pun** -- Sends one of many very bad skeleton puns.
+
+**balance** -- Checks the user's balance.
+
+**ping** -- Pong!
+
+**suggest** -- Suggest something for the bot. Sends a message to a private server where the owner reviews it.
+
+## Support or Contact
+
+Having trouble with Sans? Join our [Support Server](https://discord.gg/7Rb3Cgz) or contact me on Discord (@Dappy Pappy#5173)
