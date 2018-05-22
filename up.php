@@ -1,20 +1,20 @@
 <?php
- 
+
 $secret_key = "bryon4403"; //Set this as your secret key, to prevent others uploading to your server.
-$sharexdir = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ShareX\ShareX.Ink"; //This is your file dir, also the link..
-$domain_url = 'http://sansbot.me/';
-$lengthofstring = 8; //Length of the file name
- 
+$sharexdir = ""; //This is your file dir, also the link..
+$domain_url = 'http://www.sansbot.me/';
+$lengthofstring = 6; //Length of the file name
+
 function RandomString($length) {
     $keys = array_merge(range(0,9), range('a', 'z'));
- 
+
     $key = '';
     for($i=0; $i < $length; $i++) {
         $key .= $keys[mt_rand(0, count($keys) - 1)];
     }
     return $key;
 }
- 
+
 if(isset($_POST['secret']))
 {
     if($_POST['secret'] == $secret_key)
@@ -22,7 +22,7 @@ if(isset($_POST['secret']))
         $filename = RandomString($lengthofstring);
         $target_file = $_FILES["sharex"]["name"];
         $fileType = pathinfo($target_file, PATHINFO_EXTENSION);
- 
+
         if (move_uploaded_file($_FILES["sharex"]["tmp_name"], $sharexdir.$filename.'.'.$fileType))
         {
             echo $domain_url.$sharexdir.$filename.'.'.$fileType;
@@ -30,7 +30,7 @@ if(isset($_POST['secret']))
             else
         {
            echo 'File upload failed - CHMOD/Folder doesn\'t exist?';
-        }  
+        }
     }
     else
     {
