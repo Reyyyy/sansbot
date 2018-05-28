@@ -6,7 +6,7 @@
 
 
 
-Sans is an undertale bot designed to be sort of like the actual Sans. He has commands like hotdog stacking, puns, and many more. He even connects to an online database, so all those hotdogs on your head come with you from server to server! He is, of course, still in development. However, I add new commands to him almost every day. You can use his `s!suggest` command to suggest some, aswell!
+Sans is an undertale bot designed to be sort of like the actual Sans. His only commands are listed below. He is, of course, still in development. However, I add new commands to him almost every day. You can use his `s!suggest` command to suggest some, aswell!
 
 You can add the bot **[Here](https://tinyurl.com/addsansbot)**
 
@@ -18,22 +18,16 @@ Sans is coded in the language of Lua, from the [Discordia](https://github.com/Si
 ## Commands
 ### Here are some of Sans' many commands!
 
-**info** -- Bot Information
+**s!info** -- Bot Information
 
-**setdogs** -- Gives a user hotdogs on their head. Can only be used by bot admins.
+**s!help** -- Shows the help menu.
 
-**help** -- Shows the help menu.
+**s!pun** -- Sends one of many very bad skeleton puns.
 
-**hstack** -- Stack a hotdog on your head!
+**s!ping** -- Pong!
 
-**pun** -- Sends one of many very bad skeleton puns.
-
-**balance** -- Checks the user's balance.
-
-**ping** -- Pong!
-
-**suggest** -- Suggest something for the bot. Sends a message to a private server where the owner reviews it.
+**s!suggest** -- Suggest something for the bot. Sends a message to a private server where the owner reviews it.
 
 ## Support or Contact
 
-Having trouble with Sans? Join our [Support Server](https://discord.gg/7Rb3Cgz) or contact me on Discord (@Dappy Pappy#5173)
+Having trouble with Sans? Join our [Support Server](https://discord.gg/JmTrawD) or contact me on Discord (@Dappy Pappy#5173)
